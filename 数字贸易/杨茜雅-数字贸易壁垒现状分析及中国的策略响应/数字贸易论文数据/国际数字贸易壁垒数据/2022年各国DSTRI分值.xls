@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>OECD.Stat</Author>
+  <LastAuthor>Lily Yang</LastAuthor>
+  <Created>2023-11-23T12:16:32Z</Created>
+  <LastSaved>2023-11-23T11:38:44Z</LastSaved>
+  <Company>OECD</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9804</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m2244000237072">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2244000237092">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2244000237112">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000080"
+    ss:Bold="1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#F0F8FF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="OECD.Stat export">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="92" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.2">
+   <Column ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:AutoFitWidth="0" ss:Width="13.2"/>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell ss:StyleID="s62" ss:Formula="=DotStatQuery(RC[1])"><Data ss:Type="Error">#NAME?</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;WebTableParameter xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://stats.oecd.org/OECDStatWS/2004/03/01/&quot;&gt;&lt;DataTable Code=&quot;STRI_DIGITAL&quot; HasMetadata=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Digital Services Trade Restrictiveness Index&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Indice de restriction sur les échanges de services Digital&lt;/Name&gt;&lt;Dimension Code=&quot;SECT&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Sector&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Secteur&lt;/Name&gt;&lt;Member Code=&quot;DG&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Digital&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Digital&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;CLAS&quot; HasMetadata=&quot;false&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Classification&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Classification&lt;/Name&gt;&lt;Member Code=&quot;STRI&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Indicator STRI&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Indicateur STRI&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CLAS1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;1&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Classification 1 - Category of Restrictions&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Classification 1 - CatÃ©gories des Restrictions&lt;/Name&gt;&lt;ChildMember Code=&quot;CLAS1_1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Infrastructure and connectivity&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Infrastructure and connectivity&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;CLAS1_2&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Electronic transactions&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Electronic transactions&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;CLAS1_3&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Payment system&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Payment system&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;CLAS1_4&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Intellectual property rights&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Intellectual property rights&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;CLAS1_5&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Other barriers affecting trade in digitally enabled services&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Other barriers affecting trade in digitally enabled services&lt;/Name&gt;&lt;/ChildMember&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;COU&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;LOCATION&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Country&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pays&lt;/Name&gt;&lt;Member Code=&quot;AUS&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Australia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Australie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;AUT&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Austria&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Autriche&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;BEL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Belgium&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Belgique&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CAN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Canada&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Canada&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CHL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Chile&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Chili&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;COL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Colombia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Colombie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CRI&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Costa Rica&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Costa Rica&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CZE&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Czechia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Tchéquie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;DNK&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Denmark&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Danemark&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;EST&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Estonia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Estonie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;FIN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Finland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Finlande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;FRA&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;France&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;France&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;DEU&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Germany&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Allemagne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GRC&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Greece&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Grèce&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;HUN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Hungary&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Hongrie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ISL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Iceland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Islande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;IRL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Ireland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Irlande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ISR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Israel&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Israël&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ITA&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Italy&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Italie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;JPN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Japan&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Japon&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;KOR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Korea&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Corée&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;LVA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Latvia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Lettonie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;LTU&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Lithuania&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Lituanie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;LUX&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Luxembourg&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Luxembourg&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MEX&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Mexico&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Mexique&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NLD&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Netherlands&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pays-Bas&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NZL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;New Zealand&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Nouvelle-Zélande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NOR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Norway&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Norvège&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;POL&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Poland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pologne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PRT&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Portugal&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Portugal&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SVK&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Slovak Republic&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;République slovaque&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SVN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Slovenia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Slovénie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ESP&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Spain&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Espagne&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SWE&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Sweden&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Suède&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CHE&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Switzerland&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Suisse&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;TUR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Türkiye&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Türkiye&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GBR&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;United Kingdom&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Royaume-Uni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;USA&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;United States&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;États-Unis&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ALB&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Albania&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Albanie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ARG&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Argentina&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Argentine&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;BOL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Bolivia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Bolivie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;BIH&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Bosnia and Herzegovina&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Bosnie-Herzégovine&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;BRA&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Brazil&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Brésil&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;BRN&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Brunei Darussalam&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Brunéi Darussalam&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;KHM&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Cambodia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Cambodge&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CMR&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Cameroon&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Cameroun&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;CHN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;China (People's Republic of)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Chine (République populaire de)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;DOM&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Dominican Republic&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;République dominicaine&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ECU&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Ecuador&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Équateur&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ETH&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Ethiopia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Éthiopie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GMB&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Gambia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Gambie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;GTM&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Guatemala&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Guatemala&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;IND&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;India&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Inde&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;IDN&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Indonesia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Indonésie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;KAZ&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Kazakhstan&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Kazakhstan&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;KEN&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Kenya&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Kenya&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;XKV&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Kosovo&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Kosovo&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;LAO&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Lao People's Democratic Republic&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;République démocratique populaire lao&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;LSO&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Lesotho&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Lesotho&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MDG&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Madagascar&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Madagascar&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MYS&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Malaysia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Malaisie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MLI&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Mali&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Mali&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MNE&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Montenegro&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;MontTnTgro&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;NPL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Nepal&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Népal&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;MKD&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;North Macedonia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Macédoine du Nord&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PAK&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Pakistan&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pakistan&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PRY&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Paraguay&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Paraguay&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PER&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Peru&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Pérou&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;PHL&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Philippines&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Philippines&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;RUS&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Russia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Russie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;RWA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Rwanda&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Rwanda&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SAU&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Saudi Arabia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Arabie saoudite&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SEN&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Senegal&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Sénégal&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SRB&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Serbia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Serbie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SYC&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Seychelles&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Seychelles&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SGP&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Singapore&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Singapour&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ZAF&quot; HasMetadata=&quot;true&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;South Africa&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Afrique du Sud&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;SWZ&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Eswatini&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Eswatini&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;THA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Thailand&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Thaïlande&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;UGA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Uganda&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Ouganda&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;URY&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Uruguay&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Uruguay&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;VUT&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Vanuatu&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Vanuatu&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;VNM&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Viet Nam&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Viet Nam&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ZMB&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Zambia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Zambie&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;ZWE&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Zimbabwe&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Zimbabwe&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;YEA&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;TIME&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Year&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;Année&lt;/Name&gt;&lt;Member Code=&quot;2022&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2022&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;fr&quot;&gt;2022&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;WBOSInformations&gt;&lt;TimeDimension WebTreeWasUsed=&quot;false&quot;&gt;&lt;StartCodes Annual=&quot;2022&quot; /&gt;&lt;EndCodes Annual=&quot;2022&quot; /&gt;&lt;/TimeDimension&gt;&lt;/WBOSInformations&gt;&lt;Tabulation Axis=&quot;horizontal&quot;&gt;&lt;Dimension Code=&quot;YEA&quot; CommonCode=&quot;TIME&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;vertical&quot;&gt;&lt;Dimension Code=&quot;COU&quot; CommonCode=&quot;LOCATION&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;page&quot;&gt;&lt;Dimension Code=&quot;SECT&quot; /&gt;&lt;Dimension Code=&quot;CLAS&quot; /&gt;&lt;/Tabulation&gt;&lt;Formatting&gt;&lt;Labels LocaleIsoCode=&quot;en&quot; /&gt;&lt;Power&gt;0&lt;/Power&gt;&lt;Decimals&gt;-1&lt;/Decimals&gt;&lt;SkipEmptyLines&gt;true&lt;/SkipEmptyLines&gt;&lt;SkipEmptyCols&gt;false&lt;/SkipEmptyCols&gt;&lt;SkipLineHierarchy&gt;false&lt;/SkipLineHierarchy&gt;&lt;SkipColHierarchy&gt;false&lt;/SkipColHierarchy&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;/Formatting&gt;&lt;/DataTable&gt;&lt;Format&gt;&lt;ShowEmptyAxes&gt;true&lt;/ShowEmptyAxes&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;SortColumn Order=&quot;desc&quot;&gt;2022&lt;/SortColumn&gt;&lt;EnableSort&gt;true&lt;/EnableSort&gt;&lt;IncludeFlagColumn&gt;false&lt;/IncludeFlagColumn&gt;&lt;IncludeTimeSeriesId&gt;false&lt;/IncludeTimeSeriesId&gt;&lt;DoBarChart&gt;false&lt;/DoBarChart&gt;&lt;FreezePanes&gt;false&lt;/FreezePanes&gt;&lt;MaxBarChartLen&gt;65&lt;/MaxBarChartLen&gt;&lt;/Format&gt;&lt;Query&gt;&lt;AbsoluteUri&gt;http://stats.oecd.org//View.aspx?QueryId=86804&amp;amp;QueryType=Public&amp;amp;Lang=en&lt;/AbsoluteUri&gt;&lt;/Query&gt;&lt;/WebTableParameter&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="23.55">
+    <Cell ss:StyleID="s63" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Dataset: Digital Services Trade Restrictiveness Index</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m2244000237072"><Data ss:Type="String">Sector</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Digital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.549999999999997">
+    <Cell ss:MergeAcross="1" ss:StyleID="m2244000237092"><Data ss:Type="String">Classification</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Indicator STRI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m2244000237112"><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">2022</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Country</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[KAZ]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Kazakhstan</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.64714723825454701</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Zimbabwe</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.56812435388565097</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[RUS]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Russia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.50758457183837902</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Lao People's Democratic Republic</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.49870175123214699</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Saudi Arabia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.44550734758377097</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Seychelles</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.44379910826683</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[KHM]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Cambodia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.40539804100990301</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Eswatini</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.386675775051117</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[IND]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">India</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.36214554309844998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[BIH]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Bosnia and Herzegovina</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.36081311106681802</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[ZAF]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">South Africa</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.34205669164657598</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.33952853083610501</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Rwanda</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.329928249120712</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Uruguay</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.31756064295768699</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[CHN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">China (People's Republic of)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.30758455395698497</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[IDN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Indonesia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.30686709284782399</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[POL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Poland</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.30338230729103099</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Colombia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.299145877361298</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Pakistan</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.29022890329361001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Kenya</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.26788520812988298</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[ISL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Iceland</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.26730439066886902</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[ETH]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Ethiopia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.26470789313316401</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[TUR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Türkiye</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.264332085847855</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[CHL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.26265799999237099</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Cameroon</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.24772804975509599</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Bolivia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.241715058684349</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.241715058684349</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Madagascar</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.23812776803970301</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Brunei Darussalam</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.23173898458480799</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Zambia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.22757089138031</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Latvia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.22326613962650299</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[BRA]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Brazil</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.222958654165268</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Lesotho</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.20871199667453799</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Senegal</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.20594465732574499</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[KOR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Korea</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.202699020504952</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[AUT]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Austria</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.20201571285724601</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Singapore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.19986334443092299</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[GRC]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Greece</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.18428425490856201</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[SVN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Slovenia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.18076528608799</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Paraguay</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.18076528608799</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Serbia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.18073113262653401</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[ISR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Israel</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.18004782497882801</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[HUN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Hungary</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.165835320949554</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[CZE]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Czechia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.16299965977668801</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Nepal</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.162658005952835</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[BEL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Belgium</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.16231636703014399</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Viet Nam</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.145985662937164</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[PRT]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Portugal</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.14455072581768</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[IRL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Ireland</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.143867433071137</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Thailand</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.14103177189826999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[NZL]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">New Zealand</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.14034847915172599</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Mali</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.137512817978859</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Malaysia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.126545950770378</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Philippines</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.126545950770378</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[ITA]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Italy</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.126135975122452</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Vanuatu</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.12582848966121701</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[FIN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Finland</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.123300313949585</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[FRA]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.123300313949585</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Uganda</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.123026989400387</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[DEU]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Germany</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.12261701375245999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[ESP]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Spain</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.12261701375245999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[SWE]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Sweden</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.12189955264329901</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Guatemala</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.104885548353195</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[DNK]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Denmark</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.10416808724403399</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Lithuania</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.10416808724403399</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[NLD]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Netherlands</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.10416808724403399</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">North Macedonia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.101366586983204</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Albania</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.100649125874043</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Kosovo</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0.100649125874043</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Montenegro</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.100649125874043</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[EST]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Estonia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">8.2917660474777E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[LUX]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Luxembourg</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">8.2917660474777E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[JPN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Japan</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">8.2200199365615997E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[SVK]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Slovak Republic</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">8.0081999301909998E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[MEX]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Mexico</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">7.9364538192748996E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Gambia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">7.9364538192748996E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[AUS]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Australia</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">6.0949776321650002E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[NOR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Norway</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">6.0949776321650002E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[CHE]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Switzerland</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">6.0949776321650002E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[GBR]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">United Kingdom</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">6.0949776321650002E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[USA]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">United States</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">6.0949776321650002E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Ecuador</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">4.3218314647674998E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Costa Rica</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">4.2500853538513003E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Dominican Republic</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">4.0382646024226997E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s83" ss:HRef="http://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=STRI_DIGITAL&amp;Coords=[COU].[CAN]&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Canada</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87" ss:HRef="https://stats-1.oecd.org/index.aspx?DatasetCode=STRI_DIGITAL"><Data
+      ss:Type="String">Data extracted on 23 Nov 2023 11:16 UTC (GMT) from OECD.Stat</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>182</Zoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <TopRowVisible>5</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>78</ActiveRow>
+     <ActiveCol>55</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
